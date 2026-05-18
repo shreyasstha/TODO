@@ -20,12 +20,12 @@ export default function Navbar({ showLogout = false }: NavbarProps) {
     <header className="border-b border-slate-200 bg-white/90 backdrop-blur-sm">
       <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-5 sm:px-6">
         <div className="flex items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-500 text-lg font-bold text-white shadow-md shadow-indigo-500/25">
+          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-yellow-500 text-lg font-bold text-white shadow-md shadow-indigo-500/25">
             ✓
           </span>
           <div>
             <h1 className="text-xl font-semibold tracking-tight text-slate-800 sm:text-2xl">
-              Todo App
+              Todo App hahaha
             </h1>
             <p className="text-sm text-slate-500">
               {showLogout && username
