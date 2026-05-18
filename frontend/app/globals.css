@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Tell Tailwind which files contain utility classes */
+@source "./**/*.{js,ts,jsx,tsx}";
+@source "../components/**/*.{js,ts,jsx,tsx}";
+
+:root {
+  --background: #f1f5f9;
+  --background-end: #e2e8f0;
+  --foreground: #0f172a;
+  --foreground-muted: #64748b;
+  --card: #ffffff;
+  --card-border: #e2e8f0;
+  --input-bg: #ffffff;
+  --input-border: #cbd5e1;
+  --input-placeholder: #94a3b8;
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --danger: #dc2626;
+  --success: #16a34a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  min-height: 100vh;
+}
